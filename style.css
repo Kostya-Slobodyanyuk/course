@@ -1,0 +1,25 @@
+body {
+    background-color: rgba(184, 42, 240, 0.699);
+    color: #fff;
+}
+
+div {
+    border: 10px solid white;
+    padding: 20px;
+}
+
+.First, .Second {
+    margin-bottom: 50px;
+}
+
+.First {
+    border-color: black;
+}
+
+.Second {
+    border-color: blue;
+}
+
+.Third {
+    border-color: blueviolet;
+}
