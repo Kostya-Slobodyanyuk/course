@@ -23,3 +23,12 @@ div {
 .Third {
     border-color: blueviolet;
 }
+
+.call {
+    right: 25px;
+    top: 90%;
+    position: fixed;
+    width: 50px;
+    padding: 0;
+    margin: 0;
+}
