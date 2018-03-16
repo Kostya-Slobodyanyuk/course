@@ -1,0 +1,172 @@
+.item{
+  display: flex;
+  flex-direction: row;
+  background-color: #f2f2f2;
+  border: 1px solid #979797;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media(max-width: 768px) {
+  .item {
+    flex-flow: row wrap;
+    padding: 0;
+  }
+
+  .item-img {
+    margin-bottom: 0;
+  }
+
+  .item-description {
+    padding-left: 25px;
+    padding-top: 0px;
+  }
+}
+
+.item-img {
+  width: 252px;
+  height: 395px;
+  margin-left: 60px;
+  margin-top: 30px;
+  margin-right: 90px;
+}
+
+.item-description {
+  font-family: Open Sans;
+  padding-right: 60px;
+  padding-top: 30px;
+  color: #000000;
+}
+
+.item-header {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.item-about {
+  font-size: 18px;
+  width: 100%;
+  margin-bottom: 55px;
+}
+
+.item-features {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 13px;
+}
+
+.item-details li {
+  list-style: none;
+  width: 100%;
+  font-size: 18px;
+  padding-bottom: 20px;
+  margin-left: -40px;
+}
+
+.item-details li:last-child {
+  padding-bottom: 50px;
+}
+
+.item-btn {
+  width: 100%;
+  border: 1px solid #3d3d3d;
+  padding: 15px 0;
+  margin-bottom: 50px;
+  text-align: center;
+  background-color: #f2f2f2;
+  color: #3d3d3d;
+  font-size: 20px;
+}
+
+.item-btn:hover {
+  cursor: pointer;
+}
+
+.popular-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-popular-header {
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+.card-popular {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  height: 218px;
+  border: solid 1px #979797;
+  background-color: #d8d8d8;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.card-popular:hover {
+  box-shadow: 0 22px 43px rgba(0,0,0,0.15);
+  transition: 0.3s;
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.card-popular-img {
+  width: 112px;
+  height: 180px;
+  display: flex;
+  align-self: center;
+  margin-top: 15px;
+}
+  
+  .social {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  
+  .social-header {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: bold;
+    align-self: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+  }
+
+  .social-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .about-vk {
+    margin-top: -40px;
+    border: #000000;
+    z-index: 2;
+  }
+
+  .vk, .fb, tg, md {
+    z-index: 1;
+  }
+
+  .about-fb {
+    margin-top: -45px;
+    border: #000000;
+    z-index: 2;
+  }
+
+  .about-tg {
+    margin-top: -45px;
+    border: #000000;
+    z-index: 2;
+  }
+
+  .about-md {
+    margin-top: -42px;
+    border: #000000;
+    z-index: 2;
+  }
