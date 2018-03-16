@@ -11,9 +11,18 @@
   .item {
     flex-flow: column wrap;
   }
+
+  .social-card {
+    margin-bottom: 20px;
+  }
 }
 
-.item-img {
+@media(min-width: 768px) and (max-width: 990px) {
+  .social-card {
+    margin-bottom: 20px;
+  }
+}
+  .item-img {
   width: 252px;
   height: 395px;
 }
